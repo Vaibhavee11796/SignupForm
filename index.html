@@ -1,0 +1,55 @@
+<html>
+<head>
+<title> Sign up</title>
+	<script src="validationform.js"> </script>
+	<link href="styles.css"  rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+<div id="signup-box">
+     <div class="left-box">
+	 <h1>sign up</h1>
+	 <p> Xlys much better when you <br>have an account.<br><br>
+		 Get yourself one.</p>
+	 <h3>Xlyx</h3>
+	 </div>
+	 
+	 <form>
+	 <div class="right-box">
+	 
+			<input  type="text" placeholder="USERNAME" id="user"  pattern="[A-Za-z]{1,16}" autocomplete="off" required><br>
+			
+			<input type="email"  placeholder="E-MAIL" id="email" required>
+			
+			<i  id="icon1" class="fa fa-check" style="font-size:24px;color:green"></i><br>
+			
+			
+			<input type="password" placeholder="PASSWORD" id="password" required  >
+			
+			<i id="icon2" class="fa fa-check" style="font-size:24px;color:green"></i><br>
+			
+			<input type="password"  placeholder="CONFIRM PASSWORD" id="confirmpassword"    ><br>
+			
+			
+			<label>
+			<input  type="checkbox" name="myCheckboxName" id="myCheckboxId">
+		     By singing up I agree with  <a href="#">  terms and conditions</a> 
+			</label><br><br><br>
+			
+			<label>
+			<input type="submit" name="signup" value="Sign Up" onclick="return validate()">  or <a href="#" >   Log in</a><br>
+			</label>
+	 
+
+	 
+	 
+	 </div>
+	 </form>
+	 
+
+</body>
+
+</html>
